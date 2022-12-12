@@ -235,7 +235,7 @@ header {
     transition: 0.3s ease-in-out;
 }
 
-a.navbar-item:nth-child(4){
+a.navbar-item:nth-child(4) {
     position: relative;
 }
 
@@ -271,7 +271,7 @@ a.navbar-item:nth-child(4){
 
 .hero-title {
     font-weight: 800;
-    font-size: clamp(5.5vw, 1.2rem, 3.7rem);
+    font-size: clamp(5.5vw, 1.9rem, 3.7rem);
     text-transform: capitalize !important;
     text-align: left;
     margin-bottom: 11px;
@@ -304,7 +304,7 @@ a.navbar-item:nth-child(4){
     transition: 0.4s ease-in-out !important;
 }
 
-.hero-button a.btn-long{
+.hero-button a.btn-long {
     padding: 17px 80px;
 }
 
@@ -729,7 +729,7 @@ footer .social-media {
     margin-bottom: 18px;
 }
 
-footer .social-media .icon1{
+footer .social-media .icon1 {
     width: 26px;
     height: 26px;
 }
@@ -753,7 +753,7 @@ footer .copyright {
         font-size: 0.8rem;
     }
 
-    .hero-button > a.btn-long {
+    .hero-button>a.btn-long {
         padding: 12px 50px;
     }
 
@@ -896,6 +896,10 @@ footer .copyright {
     .mission .card {
         width: 90%;
     }
+
+    .hero-subtitle{
+        font-size: 0.8rem;
+    }
 }
 
 @media screen and (max-width:425px) {
@@ -917,11 +921,15 @@ footer .copyright {
         width: 90%;
     }
 
-     /* Hero */
+    /* Hero */
 
-     .hero-button > a{
+    .hero-button>a {
         font-size: 0.7rem;
-     }    
+    }
+
+    .hero-button > a.btn-long{
+        padding: 10px 30px;
+    }
 }
 
 @media screen and (max-width:320px) {
